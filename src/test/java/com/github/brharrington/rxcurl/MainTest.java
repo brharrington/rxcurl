@@ -69,4 +69,12 @@ public class MainTest {
     });
     //Assert.assertEquals(0, code);
   }
+
+  @Test
+  public void ssl() {
+    Main.main(new String[] {
+        "https://localhost:12346/get_ok"
+    });
+    //Assert.assertEquals(0, code);
+  }
 }
